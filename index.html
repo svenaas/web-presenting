@@ -281,7 +281,7 @@
 				</section>
 
 				<!-- Reveal.js -->
-				<section>
+				<section data-transition="none">
 					<section>
 						<h1>Reveal.js</h1>
 						<h3>Hakim El Hattab</h3>
@@ -292,15 +292,12 @@
 						</aside>
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>Transitions</h2>
+						<p>Supports swipe/pinch navigation.</p>
 					</section>
 
-					<section>
-						<h2>Internal Links</h2>
-					</section>
-
-					<section data-markdown>
+					<section data-markdown data-transition="concave">
 				    <script type="text/template">
 						##Markdown
 
@@ -308,7 +305,7 @@
 						</script>
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>Code Highlighting</h2>
 						<pre><code contenteditable>
 &lt;section&gt;
@@ -320,38 +317,63 @@
 						</code></pre>
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>Overview</h2>
 						<p>10,000-foot view of your presentation.</p>
 						<div id="showoverview" class="fragment" />
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>Mobile</h2>
+						<p>Supports swipe/pinch navigation.</p>
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>PDF Export</h2>
+						<p><a href="https://github.com/hakimel/reveal.js#pdf-export">Supported</a> via print Stylesheet (Chrome only at this time).</p>
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>Pause</h2>
+						<aside class="notes">Hit B to pause your presentation.</aside>
 					</section>
 
-					<section>
-						<h2>Theming - SASS</h2>
+					<section data-transition="concave">
+						<h2>Theming</h2>
+						<p>Uses SASS and related tools to make themes more consise.</p>
 					</section>
 
-					<section>
+					<section data-transition="concave">
+						<h2>Presenter View</h2>
+						<p>See notes along with current/next slide and timer</p>
+					</section>
+
+					<section data-transition="concave">
 						<h2>Remote</h2>
+						<h3>(Server-side speaker notes)</h3>
+						<p>Control presentations with another device.</p>
 					</section>
 
-					<section>
+					<section data-transition="concave">
 						<h2>Multiplex</h2>
+						<p>Control presentation <em>clients</em></p>
 					</section>
 
-					<section>
-						<h2>Node.js</h2>
+					<section data-transition="concave">
+						<h2>And more!</h2>
+						<ul>
+							<li class="fragment">Internal links</li>
+							<li class="fragment">Node.js</li>
+							<li class="fragment">Navigate via <a href="https://github.com/functino/reveal.js-wave-plugin">webcam</a> or <a href="https://github.com/functino/reveal.js-gamepad-plugin">gamepad</a></li>
+							<li class="fragment"><a href="https://github.com/nicolasiensen/reveal.js-sinatra">Generate presentations with Sinatra</a>.</li>
+						</ul>
+						<aside class="notes">
+							You can link directly from slide to slide.
+
+							Node.js is used for remote and multiplexing, and Node and Grunt are used for Reveal.js development.
+
+							Third-party developers have experimented with novel control mechanisms, new transition types, and even programattic generation of presentations using Sinatra.
+						</aside>
 					</section>
 				</section>
 
@@ -368,6 +390,8 @@
 						<small><a href="http://flowtime-js.marcolago.com/#/section-6/page-1" target="_blank">Parallax example</a></small>
 						<aside class="notes">
 							Follow example link and click through to see the parallax effect demonstrated.
+
+							NOTE: In Safari be sure to leave fullscreen mode first.
 						</aside>
 					</section>
 
@@ -377,6 +401,8 @@
 						<small><a href="https://github.com/bartaz/impress.js">https://github.com/bartaz/impress.js</a></small>
 						<aside class="notes">
 							Follow "Impress" link for a quick click-through of the Impress demo.
+
+							NOTE: In Safari be sure to leave fullscreen mode first.
 						</aside>
 					</section>
 
@@ -417,17 +443,10 @@
 							<li>Semantics (XOXO)</li>
 						</ul>
 						<aside class="notes">
-
+							Look at a presentation without CSS or JavaScript.
+							Try print-previewing a presentation.
+							View the source code!
 						</aside>
-					</section>
-
-					<section>
-						<h2>Adaptability</h2>
-						<ul>
-							<li>Printable</li>
-							<li>Accessible</li>
-							<li>Exportable</li>
-						</ul>
 					</section>
 
 					<section>
@@ -470,7 +489,6 @@
 							<li>API / Events</li>
 						</ul>
 					</section>
-
 				</section>
 
 				<section>
