@@ -5,5 +5,6 @@ As web professionals we spend years developing expertise with the tools of our t
 
 [Presented](http://fl.highedweb.org/conference-schedule-and-venue/how-i-made-this-presentation-using-the-tools-of-the-web-to-present-about-it/) at [HighEdWeb Florida](http://fl.highedweb.org/), 23 April 2013 — [#dpfl3](https://twitter.com/search/realtime?q=%23dpfl3)
 
-Copyright (C) 2013 Sven Aas
+[Presented](http://2013.highedweb.org/EventDetail.aspx?guid=81d93d6a-8440-41b6-827f-cbae43479382) at [HighEdWeb 2013](http://2013.highedweb.org/), 7 October 2013 — [#mpd4](https://twitter.com/search/realtime?q=%23mpd4)
 
+Copyright (C) 2013 Sven Aas
