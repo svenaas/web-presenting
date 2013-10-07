@@ -51,7 +51,7 @@
 					</p>
 					<p><a href="https://twitter.com/search/realtime?q=%23MPD4">#MPD4</a></p>
 					<aside class="notes">
-						My name is Sven Aas. I work at Mount Holyoke College, up in Massachusetts, where I develop and support web applications.
+						My name is Sven Aas. I work at Mount Holyoke College, down in Massachusetts, where I develop and support web applications.
 					</aside>
 				</section>
 
@@ -255,7 +255,7 @@
 						<aside class="notes">
 							<p>Eric Meyer's framework retains the things that are valuable about Tantek's, but uses JavaScript to assign IDs automatically, making things easier for the editor.</p>
 
-							<p>Still compatible with Opera Show. Also compatible with XOXO (Extensible Open XHTML Outlines microform).</p>
+							<p>Still compatible with Opera Show. Also compatible with XOXO (Extensible Open XHTML Outlines microformat).</p>
 						</aside>
 					</section>
 
@@ -463,7 +463,7 @@
 						<aside class="notes">
 							<p>In general all of these tools allow you to control your presentation with the keyboard in a reasonable (and usually familiar) way, though the details vary, as they do with mouse control options.</p>
 
-							<p>You are, however, in a browser, and the behavior of the back button is a bit different from one presentation tool to another. Test this out of it matters to you.</p>
+							<p>You are, however, in a browser, and the behavior of the back button is a bit different from one presentation tool to another. Test this out if it matters to you.</p>
 						</aside>
 					</section>
 
@@ -548,7 +548,7 @@
 						<h3 class="fragment">to Google Presentations?</h3>
 						<p class="fragment">For something small and simple</p>
 						<aside class="notes">
-							Would I go back to Powerpoint or Keynote? Sure, if I have to make something available in those formats for someone else. And I'd use Google if I had a lower bar for something small and simple. But for something I'm going to spend time on, why not do it this way? I'm not promising that it's easier to get your theme working the way you want, but you're doing it with CSS. Maybe you're already great at this. Maybe not. But either way, and
+							Would I go back to Powerpoint or Keynote? Sure, if I have to make something available in those formats for someone else. And I'd use Google if I had a lower bar for something small and simple. But for something I'm going to spend time on, why not do it this way? I'm not promising that it's easier to get your theme working the way you want, but you're doing it with CSS. Maybe you're already great at this. Maybe not. But either way ...
 						</aside>
 					</section>
 
@@ -584,6 +584,7 @@
 						saas at mtholyoke dot edu<br/>
 						<a href="http://twitter.com/svenaas">@svenaas</a>
 					</p>
+					<p>#mpd4</p>
 				</section>
 
 			</div>
@@ -617,7 +618,7 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-                    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 
@@ -626,6 +627,8 @@
 				Reveal.toggleOverview();
 			}
 		} );
+
+		//var remotes = new Remotes("preview");
 
 		</script>
 
